@@ -1,5 +1,6 @@
 ---
 permalink: /resume/
+layout: posts
 title: "Resume"
 preview: assets/documents/resume.pdf
 ---
