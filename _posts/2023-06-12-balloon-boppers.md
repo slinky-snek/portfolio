@@ -11,10 +11,11 @@ Balloon Boppers is a 2 to 4 person arena shooter in which the players are contin
 To win, the player must have the most kills by the end of the timed match. The pickup in the game lets a player "stun" another player which renders their 
 grapple useless for 3 seconds. 
 
-I was the only programmer on a team of two, which included one artist and myself. 
+This was a personal project. I was the only programmer and I collaborated with one artist.
 
-Responsibilities:
+Highlights:
 
   * Designed and implemented shooting, grappling, and pickup mechanics. The shooting mechanic and pickup were both implemented using Unreal's Gameplay Ability System.
-  * Implemented all game UI including menus and player HUD.
   * Designed and implemented aim assist systems including bullet magnetism, area cursor, and target gravity to better the game feel on controllers.
+  * Implemented all game UI including menus and player HUD.
+  * Designed and implemented all game mode logic.
