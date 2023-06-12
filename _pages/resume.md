@@ -55,13 +55,13 @@ permalink: /resume/
      <span class="position style" style="width: 4.10rem; height: 1.01rem; left: 0.00rem; top: 0.68rem;">Gameplay</span>
      <span class="position style" style="width: 5.00rem; height: 1.01rem; left: 4.36rem; top: 0.68rem;"> Programmer</span>
     </p>
-    <p class="paragraph body-text" style="width: 13.99rem; height: 1.41rem; font-size: 1.10rem; left: 40.91rem; top: 4.40rem; text-align: left; font-family: arial, serif;">
+<!--<p class="paragraph body-text" style="width: 13.99rem; height: 1.41rem; font-size: 1.10rem; left: 40.91rem; top: 4.40rem; text-align: left; font-family: arial, serif;">
      <span class="position" style="width: 2.10rem; height: 1.01rem; left: 0.00rem; top: 0.40rem;">
       <span class="style"></span>
       <span class="style" style="font-family: Arial, serif; font-size: 0.90rem;">(859)</span>
      </span>
      <span class="position style" style="width: 3.80rem; height: 1.01rem; font-size: 0.90rem; left: 2.36rem; top: 0.40rem; font-family: Arial, serif;"> 771-0683</span>
-    </p>
+    </p>-->
     <p class="paragraph body-text" style="width: 13.99rem; height: 1.27rem; left: 40.91rem; top: 5.81rem; text-align: left; font-weight: 400;">
      <a href="mailto:ContactAaronBarnett@gmail.com" class="link">
       <span class="position style" style="width: 13.42rem; height: 1.01rem; left: 0.00rem; top: 0.27rem;">ContactAaronBarnett@gmail.com</span>
