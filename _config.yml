@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Aaron B"
+  name   : "Aaron Barnett"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
@@ -83,7 +83,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: double
       author_profile: false
       read_time: true
       comments: true
