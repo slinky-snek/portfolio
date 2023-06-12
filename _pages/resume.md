@@ -22,13 +22,18 @@ Relevant Major Coursework: Game Development, Computer Networking, Artificial Int
 Relevant Minor Coursework: Matrix Algebra, Multivariable Calculus, Differential Equations, Statistics and Probability
 
 SKILLS
+
 Embraces teamwork
+
 Attention to detail
+
 Self-directed learner
 
 
 LANGUAGES/TECHNOLOGIES
+
 Proficient: C++, Blueprints, Python, Unreal Engine 5, JetBrains Rider, Perforce
+
 Prior Experience: C#, Unity
 
 PROJECTS
