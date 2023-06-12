@@ -1,6 +1,7 @@
 ---
 permalink: /resume/
 title: "Resume"
+preview: /assets/images/resume.png
 ---
 
-<object data="portfolio/assets/documents/resume.pdf" width="1000" height="1000" type='application/pdf'></object>
+![Picture 1](/assets/images/resume.png)
