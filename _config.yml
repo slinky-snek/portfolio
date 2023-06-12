@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Aaron Barnett"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/avatar-pic.jpg"
   bio    : "Hello! This site is where I talk about the games I've made. Thanks for stopping by!"
   links:
     - label: "GitHub"
