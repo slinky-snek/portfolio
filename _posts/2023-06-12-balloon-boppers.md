@@ -11,7 +11,7 @@ Balloon Boppers is a 2 to 4 person arena shooter in which the players are contin
 To win, the player must have the most kills by the end of the timed match. The pickup in the game lets a player "stun" another player which renders their 
 grapple useless for 3 seconds. 
 
-This was a personal project. I was the only programmer and I collaborated with one artist.
+This was a personal project. I was the only programmer and collaborated with one artist.
 
 Highlights:
 
