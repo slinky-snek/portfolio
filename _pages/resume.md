@@ -36,7 +36,7 @@ preview: assets/documents/resume.pdf
    p.table-paragraph { font-family: arial, serif; font-size: 1.10rem; color: #000000; }
   </style>
  </head>
- <body style="margin: 0; background: slategray;">
+ <body style="margin: 0; background: #252a34;">
   <div style="position: relative; margin: auto; width: 61.20rem;">
    <div class="page" style="background: #ffffff; width: 61.20rem; height: 79.20rem; z-index: 0;">
     <p class="paragraph title" style="width: 9.56rem; height: 1.52rem; left: 5.07rem; top: 4.40rem; text-align: left;">
