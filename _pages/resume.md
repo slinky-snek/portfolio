@@ -7,7 +7,6 @@ preview: assets/documents/resume.pdf
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <html lang="en" style="font-size: 10.0pt;">
  <head>
-  <title>resume</title>
   <style>
    p { margin: 0; }
    .page { margin: 10pt auto; position: relative; }
