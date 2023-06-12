@@ -13,6 +13,8 @@ Gameplay Programmer
 ContactAaronBarnett@gmail.com
 
 
+
+
 EDUCATION
 University of Kentucky - Bachelor of Science in Computer Science, Minor in Mathematics
 August 2018 - May 2021
