@@ -5,8 +5,11 @@ preview: /assets/images/resume.png
 ---
 
 Aaron Barnett
+
 Gameplay Programmer
+
 (859) 771-0683
+
 ContactAaronBarnett@gmail.com
 
 
