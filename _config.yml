@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Aaron Barnett"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hello! This site is where I talk about the games I've made. Thanks for stopping by!"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -83,7 +83,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: double
+      layout: single
       author_profile: false
       read_time: true
       comments: true
