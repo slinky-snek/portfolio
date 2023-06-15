@@ -392,7 +392,6 @@ permalink: /resume/
      <span class="position style" style="width: 4.00rem; height: 1.01rem; left: 0.00rem; top: 0.03rem;">Proficient:</span>
      <span class="position style" style="width: 1.95rem; height: 1.01rem; left: 4.26rem; top: 0.03rem;"> C++,</span>
      <span class="position style" style="width: 4.25rem; height: 1.01rem; left: 6.46rem; top: 0.03rem;"> Blueprints,</span>
-     <span class="position style" style="width: 3.05rem; height: 1.01rem; left: 0.00rem; top: 1.43rem;"> Python,</span>
      <span class="position style" style="width: 2.65rem; height: 1.01rem; left: 3.31rem; top: 1.43rem;"> Unreal</span>
      <span class="position style" style="width: 2.80rem; height: 1.01rem; left: 6.21rem; top: 1.43rem;"> Engine</span>
      <span class="position style" style="width: 0.75rem; height: 1.01rem; left: 9.26rem; top: 1.43rem;"> 5,</span>
@@ -405,6 +404,7 @@ permalink: /resume/
      <span class="position style" style="width: 1.90rem; height: 1.01rem; left: 0.00rem; top: 0.03rem;">Prior</span>
      <span class="position style" style="width: 4.75rem; height: 1.01rem; left: 2.16rem; top: 0.03rem;"> Experience:</span>
      <span class="position style" style="width: 1.40rem; height: 1.01rem; left: 7.16rem; top: 0.03rem;"> C#,</span>
+     <span class="position style" style="width: 3.05rem; height: 1.01rem; left: 8rem; top: 0.03rem;"> Python,</span>
      <span class="position style" style="width: 2.05rem; height: 1.01rem; left: 8.81rem; top: 0.03rem;"> Unity</span>
     </p>
    </div>
