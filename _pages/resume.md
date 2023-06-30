@@ -410,10 +410,4 @@ permalink: /resume/
 </html>
 -->
 
-<html>
-  <body>
-    <object data="assets/documents/AaronBarnett_Resume.pdf" type="application/pdf" width="100%" height="500px">
-      <p>Unable to display PDF file. <a href="assets/documents/AaronBarnett_Resume.pdf">Download</a> instead.</p>
-    </object>
-  </body>
-</html>
+<object data="../assets/documents/AaronBarnett_Resume.pdf" width="1000" height="1000" type='application/pdf'></object>
