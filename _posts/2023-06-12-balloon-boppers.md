@@ -8,9 +8,9 @@ tags:
 ---
 
 Balloon Boppers is a 2 to 4 person local multiplayer arena shooter in which the players are continuously falling. The players can only move around the arena using a grappling hook.
-To win, the player must have the most kills by the end of the timed match. Along with fighting others, players must stay in the arena to stay alive.
+To win, the player must have the most kills by the end of the timed match. Along with fighting others, players must stay in the arena to stay alive. 
 
-This was a personal project developed in Unreal Engine 5. I was the only programmer and collaborated with one artist.
+Developed in Unreal Engine 5 by myself and one artist.
 
 Highlights:
 
