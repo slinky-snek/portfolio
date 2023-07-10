@@ -7,7 +7,7 @@ tags:
   - Balloon Boppers
 ---
 
-Balloon Boppers is a 2 to 4 person local multiplayer arena shooter in which the players are continuously falling. The players can only move around the arena using a grappling hook.
+Balloon Boppers is a 2 to 4 person split screen arena shooter in which the players are continuously falling. The players can only move around the arena using a grappling hook.
 To win, the player must have the most kills by the end of the timed match. Along with fighting others, players must stay in the arena to stay alive. 
 
 Developed in Unreal Engine 5 by myself and one artist.
