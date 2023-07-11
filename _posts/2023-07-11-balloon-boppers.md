@@ -12,7 +12,8 @@ To win, the player must have the most kills by the end of the timed match. Along
 
 Developed in Unreal Engine 5 by myself and one artist.
 
-Available on <a href="https://twixel.itch.io/balloon-boppers">Itch.io</a>
+<iframe frameborder="0" src="https://itch.io/embed/2166883" width="552" height="167"><a href="https://twixel.itch.io/balloon-boppers">Balloon Boppers by twixel</a></iframe>
+<!--Available on <a href="https://twixel.itch.io/balloon-boppers">Itch.io</a>-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j3D1zjrDhuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
