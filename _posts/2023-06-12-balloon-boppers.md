@@ -12,6 +12,12 @@ To win, the player must have the most kills by the end of the timed match. Along
 
 Developed in Unreal Engine 5 by myself and one artist.
 
+Available on <a href="https://twixel.itch.io/balloon-boppers">Itch.io</a>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=j3D1zjrDhuQ">
+</iframe>
+
 Highlights:
 
   * Implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
