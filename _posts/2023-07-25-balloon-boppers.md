@@ -27,12 +27,12 @@ Highlights:
 <h2>
   Grapple Update
 </h2>
-<iframe src="https://blueprintue.com/render/5xjbls4h/" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://blueprintue.com/render/5xjbls4h/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
   * Implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
 <h2>
   Aim Assist Component (Main Graph)
 </h2>
-<iframe src="https://blueprintue.com/render/b2cdxey4/" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://blueprintue.com/render/b2cdxey4/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
   * Implemented aim assist systems including bullet magnetism, area cursor, and target gravity. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies above, all players were able to accurately score hits on others without feeling they were being aided too heavily.
 
     
