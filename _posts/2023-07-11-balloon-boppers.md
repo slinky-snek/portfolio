@@ -14,7 +14,7 @@ Developed in Unreal Engine 5 by myself and one artist.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j3D1zjrDhuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe frameborder="0" src="https://itch.io/embed/2166883" width="552" height="315"><a href="https://twixel.itch.io/balloon-boppers">Balloon Boppers by twixel</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/2166883" width="560" height="167"><a href="https://twixel.itch.io/balloon-boppers">Balloon Boppers by twixel</a></iframe>
 
 Highlights:
 
@@ -24,7 +24,7 @@ Highlights:
   * Implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
 
 
-<iframe src="https://blueprintue.com/render/dh04g-nc/" scrolling="no" allowfullscreen width="500" height="500"></iframe>
+<iframe src="https://blueprintue.com/render/dh04g-nc/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
 
 
   * Implemented aim assist systems including bullet magnetism, area cursor, and target gravity. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies above, all players were able to accurately score hits on others without feeling they were being aided too heavily.
