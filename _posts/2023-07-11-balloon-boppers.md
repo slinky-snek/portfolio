@@ -14,6 +14,7 @@ Developed in Unreal Engine 5 by myself and one artist.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j3D1zjrDhuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 <iframe frameborder="0" src="https://itch.io/embed/2166883" width="560" height="167"><a href="https://twixel.itch.io/balloon-boppers">Balloon Boppers by twixel</a></iframe>
 
 Highlights:
@@ -23,7 +24,9 @@ Highlights:
     
   * Implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
 
-
+<h2>
+  Automatic Grapple Target Selection
+</h2>
 <iframe src="https://blueprintue.com/render/dh04g-nc/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
 
 
