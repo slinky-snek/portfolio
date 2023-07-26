@@ -23,20 +23,20 @@ Highlights:
 <iframe src="https://blueprintue.com/render/c9gumui_/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
 <br>
 <br>
-'''c++
+'''cpp
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangeDelegate, float, AttributeValue, int32, StackCount);
 '''
-'''c++
+'''cpp
 //Attribute change delegate handles (for UI)
 UPROPERTY(BlueprintAssignable, Category = "AttributeDelegates")
 FAttributeChangeDelegate OnHealthChangeDelegate;
 '''
-'''c++
+'''cpp
 //Attribute change blueprint hooks
 UFUNCTION(BlueprintImplementableEvent, Category = "BoppersGameplayAbility")
 void OnHealthChanged(float Health, int32 StackCount);
 '''
-'''c++
+'''cpp
 void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
 {
 	OnHealthChangeDelegate.Broadcast(Health, StackCount);
