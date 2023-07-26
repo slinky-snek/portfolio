@@ -23,6 +23,27 @@ Highlights:
 <iframe src="https://blueprintue.com/render/c9gumui_/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
 <br>
 <br>
+'''c++
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangeDelegate, float, AttributeValue, int32, StackCount);
+'''
+'''c++
+//Attribute change delegate handles (for UI)
+UPROPERTY(BlueprintAssignable, Category = "AttributeDelegates")
+FAttributeChangeDelegate OnHealthChangeDelegate;
+'''
+'''c++
+//Attribute change blueprint hooks
+UFUNCTION(BlueprintImplementableEvent, Category = "BoppersGameplayAbility")
+void OnHealthChanged(float Health, int32 StackCount);
+'''
+'''c++
+void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
+{
+	OnHealthChangeDelegate.Broadcast(Health, StackCount);
+	OnHealthChanged(Health, StackCount);
+}
+'''
+
   *  I implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
 <br>
 <br>
