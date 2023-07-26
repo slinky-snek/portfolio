@@ -20,7 +20,7 @@ Highlights:
 <h2>
   Projectile Gameplay Ability
 </h2>
-<iframe src="https://blueprintue.com/render/c9gumui_/" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://blueprintue.com/render/c9gumui_/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
 <br>
 <br>
   *  I implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
