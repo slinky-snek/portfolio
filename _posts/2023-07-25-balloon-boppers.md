@@ -19,7 +19,9 @@ Developed in Unreal Engine 5 by myself and one artist.
 Highlights:
 
   * Implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
-
+<br>
+<br>
+<br>
 <h2>
   Automatic Grapple Target Selection
 </h2>
@@ -28,7 +30,12 @@ Highlights:
   Grapple Update
 </h2>
 <iframe src="https://blueprintue.com/render/5xjbls4h/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
+<br>
+<br>
   * Implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
+  <br>
+  <br>
+  <br>
 <h2>
   Aim Assist Component (Main Graph)
 </h2>
@@ -41,7 +48,10 @@ Highlights:
   Sticky Targets Subgraph
 </h2>
 <iframe src="https://blueprintue.com/render/7hsxg3cr/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
+<br>
+<br>
   * Implemented aim assist systems including bullet magnetism, area cursor, and target gravity. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies above, all players were able to accurately score hits on others without feeling they were being aided too heavily.
-
-    
+<br>
+<br>
+<br>    
   * Implemented all sound effects and music using MetaSounds. This allowed for greater control over when and how sounds were played. Included randomized music selection and pitch scaling of sound effects. Fewer sound effects were needed and each time one was played, it sounded different. This was especially important for the shooting, grappling, and impact sounds.
