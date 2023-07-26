@@ -17,7 +17,12 @@ Developed in Unreal Engine 5 by myself and one artist.
 <iframe frameborder="0" src="https://itch.io/embed/2166883" width="560" height="167"><a href="https://twixel.itch.io/balloon-boppers">Balloon Boppers by twixel</a></iframe>
 
 Highlights:
-
+<h2>
+  Projectile Gameplay Ability
+</h2>
+<iframe src="https://blueprintue.com/render/c9gumui_/" scrolling="no" allowfullscreen></iframe>
+<br>
+<br>
   * Implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
 <br>
 <br>
