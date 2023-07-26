@@ -33,6 +33,14 @@ Highlights:
   Aim Assist Component (Main Graph)
 </h2>
 <iframe src="https://blueprintue.com/render/b2cdxey4/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
+<h2>
+  Gravity Pull Subgraph
+</h2>
+<iframe src="https://blueprintue.com/render/p8gc2wi0/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
+<h2>
+  Sticky Targets Subgraph
+</h2>
+<iframe src="https://blueprintue.com/render/7hsxg3cr/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
   * Implemented aim assist systems including bullet magnetism, area cursor, and target gravity. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies above, all players were able to accurately score hits on others without feeling they were being aided too heavily.
 
     
