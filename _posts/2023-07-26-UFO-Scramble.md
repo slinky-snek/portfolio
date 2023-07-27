@@ -14,7 +14,6 @@ I wanted follow-through and other randomness that could be more difficult to cap
 I think a split-screen party game might be a better fit in the near future.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68dZs0q3eas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
-<br>
 <h2>
 Snippets from character and flight animation component
 </h2>
