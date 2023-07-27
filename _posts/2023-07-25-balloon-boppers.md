@@ -1,6 +1,6 @@
 ---
 title: "Balloon Boppers"
-last_modified_at: 2023-07-11T16:20:02-05:00
+last_modified_at: 2023-07-25T16:20:02-05:00
 categories:
   - Games
 tags:
@@ -20,18 +20,65 @@ Developed in Unreal Engine 5 by myself and one artist.
 <h1>
 Highlights:
 </h1>
+<h2>
+Character Setup
+</h2> 
+<h3>
+Some snippets from the character and attribute set class. This shows how delegates were setup as hooks for the UI to update. Also how Blueprint hooks were setup so classes deriving from the character could be notified of attribute changes. Full classes can be found on my github.
+</h3>
+This is the attribute and the delegate that will notify our character class that health has changed.
 ```cpp
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangeDelegate, float, AttributeValue, int32, StackCount);
+// BoppersAttributeSet.h
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangedDelegate, float, AttributeValue, int32, StackCount);
+
+UPROPERTY()
+FAttributeChangedDelegate OnHealthChangeDelegate;
+
+UPROPERTY(BlueprintReadOnly, Category = "Attributes", ReplicatedUsing = OnRep_Health)
+FGameplayAttributeData Health;
+ATTRIBUTE_ACCESSORS(UBoppersAttributeSet, Health)
 ```
+Here's an example of an attribute change hook that can be used in Blueprint classes deriving from this character class. This allows the Blueprint to be notified when an attribute has changed and maybe
+do something about it. Below that is the native attribute changed event that we'll bind to the attribute set delegate above.
 ```cpp
-//Attribute change delegate handles (for UI)
+// HeroCharacter.h
+
+//Attribute change blueprint hook
+UFUNCTION(BlueprintImplementableEvent, Category = "BoppersGameplayAbility")
+void OnHealthChanged(float Health, int32 StackCount);
+
+//Native attribute change event
+UFUNCTION()
+virtual void OnHealthChangedNative(float Health, int32 StackCount);
+```
+An example of an attribute change delegate we'll use to notify the UI to update itself. The UI will bind to this delegate when it's initialized.
+```cpp
+// HeroCharacter.h
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangeDelegate, float, AttributeValue, int32, StackCount);
+
 UPROPERTY(BlueprintAssignable, Category = "AttributeDelegates")
 FAttributeChangeDelegate OnHealthChangeDelegate;
 ```
+Here's where we bind the native function handler to the attribute set's change delegate we setup earlier. Below is where we broadcast from out native function handler when we receive a change event and also call the Blueprint hook.
 ```cpp
-//Attribute change blueprint hooks
-UFUNCTION(BlueprintImplementableEvent, Category = "BoppersGameplayAbility")
-void OnHealthChanged(float Health, int32 StackCount);
+// HeroCharacter.cpp
+void AHeroCharacter::BeginPlay()
+{
+	Super::BeginPlay();	
+	if(AbilitySystemComponent)
+	{
+		AttributeSet = AbilitySystemComponent->GetSet<UBoppersAttributeSet>();
+		const_cast<UBoppersAttributeSet*>(AttributeSet)->OnHealthChangeDelegate.AddDynamic(this, &AHeroCharacter::OnHealthChangedNative);
+  }
+}
+
+void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
+{
+	OnHealthChangeDelegate.Broadcast(Health, StackCount);
+	OnHealthChanged(Health, StackCount);
+}
 ```
 <h2>
 Shooting Mechanic
