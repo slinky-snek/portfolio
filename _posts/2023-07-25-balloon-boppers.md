@@ -75,7 +75,7 @@ FAttributeChangeDelegate OnHealthChangeDelegate;
 <br>
 <br>
 
-Here's where we bind the native function handler to the attribute set's change delegate we setup earlier. Below is where we broadcast from out native function handler when we receive a change event and also call the Blueprint hook.
+Here's where we bind the native function handler to the attribute set's change delegate we setup earlier. Below is where we broadcast from our native function handler when we receive a change event and also call the Blueprint hook.
 ```cpp
 // HeroCharacter.cpp
 void AHeroCharacter::BeginPlay()
