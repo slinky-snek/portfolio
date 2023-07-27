@@ -23,7 +23,7 @@ Highlights:
 <h2>
 Character Setup
 </h2> 
-Some snippets from the character and attribute set classes. This shows how delegates were setup as hooks for the UI to update. Also how Blueprint hooks were setup so classes deriving from the character could be notified of attribute changes. Full classes can be found on my github.
+Some snippets from the character and attribute set classes. This shows how delegates were setup as hooks for the UI to update. Also, Blueprint hooks were setup so classes deriving from the character could be notified of attribute changes. Full classes can be found on my github.
 <br>
 <br>
 <br>
