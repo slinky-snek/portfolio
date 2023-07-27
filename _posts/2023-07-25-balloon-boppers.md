@@ -99,6 +99,7 @@ void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
 <br>
 <h2>
 Shooting Mechanic
+Below is a Blueprint snippet from the projectile gameplay ability.
 </h2>
 <h3>
 Projectile Gameplay Ability
@@ -113,6 +114,7 @@ I implemented the shooting mechanic using Unreal's Gameplay Ability System. This
 <h2>
 Grapple Mechanic
 </h2>
+Below are Blueprint snippets from the grapple component.
 <h3>
 Automatic Grapple Target Selection
 </h3>
@@ -130,6 +132,7 @@ I implemented an assist system for the grapple mechanic. The system finds the be
 <h2>
 Aim Assist Systems
 </h2>
+Below are Blueprint snippets from the aim assist component.
 <h3>
 Aim Assist Component (Main Graph)
 </h3>
