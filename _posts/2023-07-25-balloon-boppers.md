@@ -26,6 +26,7 @@ Character Setup
 <h3>
 Some snippets from the character and attribute set class. This shows how delegates were setup as hooks for the UI to update. Also how Blueprint hooks were setup so classes deriving from the character could be notified of attribute changes. Full classes can be found on my github.
 </h3>
+
 This is the attribute and the delegate that will notify our character class that health has changed.
 ```cpp
 // BoppersAttributeSet.h
