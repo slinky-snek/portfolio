@@ -100,11 +100,15 @@ void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
 <h2>
 Shooting Mechanic
 </h2>
-Below is a Blueprint snippet from the projectile gameplay ability.
+Below is a Blueprint snippet from the projectile gameplay ability and the character Blueprint class.
 <h3>
 Projectile Gameplay Ability
 </h3>
 <iframe src="https://blueprintue.com/render/c9gumui_/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
+<h3>
+Triggering Character Ability
+</h3>
+<iframe src="https://blueprintue.com/render/jhq7s_h_/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
 <br>
 <br>
 I implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
@@ -123,8 +127,10 @@ Automatic Grapple Target Selection
 Grapple Update
 </h3>
 <iframe src="https://blueprintue.com/render/5xjbls4h/" scrolling="no" allowfullscreen width="800" height="400"></iframe>
-<br>
-<br>
+<h3>
+Grappled Movement Input Handling
+</h3>
+<iframe src="https://blueprintue.com/render/h8ihbz6e/" scrolling="no" allowfullscreen></iframe>
 I implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
 <br>
 <br>
