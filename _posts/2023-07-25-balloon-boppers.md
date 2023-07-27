@@ -100,7 +100,7 @@ void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
 <h2>
 Shooting Mechanic
 </h2>
-Below is a Blueprint snippet from the projectile gameplay ability and the character Blueprint class.
+Below are some Blueprint snippets from the projectile gameplay ability and the character Blueprint classes.
 <h3>
 Projectile Gameplay Ability
 </h3>
