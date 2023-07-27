@@ -20,19 +20,19 @@ task and could be moved to its own task or a separate blueprint function library
 <h2>
 Snippet from Player Character
 </h2>
-<iframe src="https://blueprintue.com/render/7vtn8w34/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
+<iframe src="https://blueprintue.com/render/7vtn8w34/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
 <br>
 <h2>
 Snippet from NPC
 </h2>
-<iframe src="https://blueprintue.com/render/ekv3zpdk/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
+<iframe src="https://blueprintue.com/render/ekv3zpdk/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
 <br>
 <h2>
 Snippet from Display Line Task
 </h2>
-<iframe src="https://blueprintue.com/render/exfnfvmv/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
+<iframe src="https://blueprintue.com/render/exfnfvmv/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
 <br>
 <h2>
 Snippet from Dialogue Emotion Handler
 </h2>
-<iframe src="https://blueprintue.com/render/ihc00z_y/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
+<iframe src="https://blueprintue.com/render/ihc00z_y/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
