@@ -118,7 +118,7 @@ I implemented the shooting mechanic using Unreal's Gameplay Ability System. This
 <h2>
 Grapple Mechanic
 </h2>
-Below are Blueprint snippets from the grapple component.
+Below are Blueprint snippets from the grapple component and character classes.
 <h3>
 Automatic Grapple Target Selection
 </h3>
