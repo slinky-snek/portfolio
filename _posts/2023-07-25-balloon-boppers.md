@@ -99,7 +99,7 @@ void AHeroCharacter::BeginPlay()
 	{
 		AttributeSet = AbilitySystemComponent->GetSet<UBoppersAttributeSet>();
 		const_cast<UBoppersAttributeSet*>(AttributeSet)->OnHealthChangeDelegate.AddDynamic(this, &AHeroCharacter::OnHealthChangedNative);
-  }
+  	}
 }
 
 void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
