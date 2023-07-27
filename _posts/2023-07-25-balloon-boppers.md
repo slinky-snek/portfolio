@@ -26,6 +26,9 @@ Character Setup
 <h3>
 Some snippets from the character and attribute set class. This shows how delegates were setup as hooks for the UI to update. Also how Blueprint hooks were setup so classes deriving from the character could be notified of attribute changes. Full classes can be found on my github.
 </h3>
+<br>
+<br>
+<br>
 
 This is the attribute and the delegate that will notify our character class that health has changed.
 ```cpp
@@ -40,6 +43,10 @@ UPROPERTY(BlueprintReadOnly, Category = "Attributes", ReplicatedUsing = OnRep_He
 FGameplayAttributeData Health;
 ATTRIBUTE_ACCESSORS(UBoppersAttributeSet, Health)
 ```
+<br>
+<br>
+<br>
+
 Here's an example of an attribute change hook that can be used in Blueprint classes deriving from this character class. This allows the Blueprint to be notified when an attribute has changed and maybe
 do something about it. Below that is the native attribute changed event that we'll bind to the attribute set delegate above.
 ```cpp
@@ -53,6 +60,10 @@ void OnHealthChanged(float Health, int32 StackCount);
 UFUNCTION()
 virtual void OnHealthChangedNative(float Health, int32 StackCount);
 ```
+<br>
+<br>
+<br>
+
 An example of an attribute change delegate we'll use to notify the UI to update itself. The UI will bind to this delegate when it's initialized.
 ```cpp
 // HeroCharacter.h
@@ -62,6 +73,10 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangeDelegate, float, At
 UPROPERTY(BlueprintAssignable, Category = "AttributeDelegates")
 FAttributeChangeDelegate OnHealthChangeDelegate;
 ```
+<br>
+<br>
+<br>
+
 Here's where we bind the native function handler to the attribute set's change delegate we setup earlier. Below is where we broadcast from out native function handler when we receive a change event and also call the Blueprint hook.
 ```cpp
 // HeroCharacter.cpp
@@ -81,6 +96,9 @@ void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
 	OnHealthChanged(Health, StackCount);
 }
 ```
+<br>
+<br>
+<br>
 <h2>
 Shooting Mechanic
 </h2>
