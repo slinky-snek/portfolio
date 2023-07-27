@@ -18,4 +18,4 @@ I think a split-screen party game might be a better fit in the near future.
 <h2>
 Snippets from character and flight animation component
 </h2>
-<iframe src="https://blueprintue.com/render/rxrggnqg/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
+<iframe src="https://blueprintue.com/render/rxrggnqg/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
