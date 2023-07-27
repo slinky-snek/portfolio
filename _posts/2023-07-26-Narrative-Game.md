@@ -17,11 +17,10 @@ whole strings. This would make is easier to remember what the markup means inste
 task and could be moved to its own task or a separate blueprint function library.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bg-4q3sLqZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
-<br>
 <h2>
 Snippet from Player Character
 </h2>
-<iframe src="https://blueprintue.com/render/rxrggnqg/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
+<iframe src="https://blueprintue.com/render/7vtn8w34/" scrolling="no" allowfullscreen width="600" height="400"></iframe>
 <br>
 <h2>
 Snippet from NPC
