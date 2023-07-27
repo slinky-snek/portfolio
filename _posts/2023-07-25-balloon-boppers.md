@@ -158,7 +158,7 @@ Aim Assist Component (Main Graph)
 </h3>
 <iframe src="https://blueprintue.com/render/b2cdxey4/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
 <h3>
-Target Gravity Subgraph
+Gravity Pull Subgraph
 </h3>
 <iframe src="https://blueprintue.com/render/p8gc2wi0/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
 <h3>
