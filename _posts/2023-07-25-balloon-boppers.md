@@ -41,6 +41,20 @@ UPROPERTY(BlueprintReadOnly, Category = "Attributes", ReplicatedUsing = OnRep_He
 FGameplayAttributeData Health;
 ATTRIBUTE_ACCESSORS(UBoppersAttributeSet, Health)
 ```
+We'll broadcast from the attribute set delegate when the attribute is changed.
+```cpp
+// BoppersAttributeSet.cpp
+
+void UBoppersAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data)
+{
+	Super::PostGameplayEffectExecute(Data);
+	if(Data.EvaluatedData.Attribute == GetHealthAttribute())
+	{
+		SetHealth(FMath::Clamp(GetHealth(), 0.f, GetMaxHealth()));
+		OnHealthChangeDelegate.Broadcast(GetHealth(), Data.EffectSpec.StackCount);
+	}
+}
+ ```
 <br>
 <br>
 <br>
