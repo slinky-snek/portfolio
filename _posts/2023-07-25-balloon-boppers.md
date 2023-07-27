@@ -114,7 +114,7 @@ void AHeroCharacter::OnHealthChangedNative(float Health, int32 StackCount)
 <h2>
 Shooting Mechanic
 </h2>
-Below are some Blueprint snippets from the projectile gameplay ability and the character Blueprint classes.
+Below are some Blueprint snippets from the projectile gameplay ability and the character Blueprint classes. I implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
 <h3>
 Projectile Gameplay Ability
 </h3>
@@ -125,14 +125,11 @@ Triggering Character Ability
 <iframe src="https://blueprintue.com/render/jhq7s_h_/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
 <br>
 <br>
-I implemented the shooting mechanic using Unreal's Gameplay Ability System. This allowed for quick iteration of possible pickups and more complex interactions with other mechanics.
-<br>
-<br>
 <br>
 <h2>
 Grapple Mechanic
 </h2>
-Below are Blueprint snippets from the grapple component and character classes.
+Below are Blueprint snippets from the grapple component and character classes. I implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
 <h3>
 Automatic Grapple Target Selection
 </h3>
@@ -145,14 +142,13 @@ Grapple Update
 Grappled Movement Input Handling
 </h3>
 <iframe src="https://blueprintue.com/render/h8ihbz6e/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
-I implemented an assist system for the grapple mechanic. The system finds the best location for the players grapple point nearest to where the player is aiming. This allowed grappling on controller to be much more accessible and fun. The player was able to focus more on where they wanted to move using the grapple and not on constantly trying to hit grapple targets precisely.
 <br>
 <br>
 <br>
 <h2>
 Aim Assist Systems
 </h2>
-Below are Blueprint snippets from the aim assist component.
+Below are Blueprint snippets from the aim assist component. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies below, all players were able to accurately score hits on others without feeling they were being aided too heavily. I implemented aim assist systems including bullet magnetism, area cursor, sticky targets, and target gravity to test which would work best for the game. I settled on bullet magnetism and target gravity. With constantly moving targets, the sticky target approach would actually cause players to not be able to reach their target while trying to track them. This is because the player's input is slowed when aiming near the target. For targets that don't move much or stop intermittently, this might be a good approach. Area cursor gave the player a feeling that they were hitting targets by cheating. Projectiles that fly directly at your target when they're "near" your reticle can feel off. The bullet magnetism approach worked quite well without players even knowing it was being used. Bullet magnetism gave players an increased chance that their shot would hit even with their target moving at high speeds. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies above, all players were able to accurately score hits on others without feeling they were being aided too heavily.
 <h3>
 Aim Assist Component (Main Graph)
 </h3>
@@ -165,9 +161,6 @@ Gravity Pull Subgraph
 Sticky Targets Subgraph
 </h3>
 <iframe src="https://blueprintue.com/render/7hsxg3cr/" scrolling="no" allowfullscreen width="700" height="400"></iframe>
-<br>
-<br>
-Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies below, all players were able to accurately score hits on others without feeling they were being aided too heavily. I implemented aim assist systems including bullet magnetism, area cursor, sticky targets, and target gravity to test which would work best for the game. I settled on bullet magnetism and target gravity. With constantly moving targets, the sticky target approach would actually cause players to not be able to reach their target while trying to track them. This is because the player's input is slowed when aiming near the target. For targets that don't move much or stop intermittently, this might be a good approach. Area cursor gave the player a feeling that they were hitting targets by cheating. Projectiles that fly directly at your target when they're "near" your reticle can feel off. The bullet magnetism approach worked quite well without players even knowing it was being used. Bullet magnetism gave players an increased chance that their shot would hit even with their target moving at high speeds. Players are moving quickly around the arena and tracking on controller was too difficult even for experienced controller players. With the aim assist strategies above, all players were able to accurately score hits on others without feeling they were being aided too heavily.
 <br>
 <br>
 <br>
