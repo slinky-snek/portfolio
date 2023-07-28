@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Aaron Barnett"
   avatar : "/assets/images/avatar-pic.jpg"
-  bio    : "Hello! This site is where I talk things I've made. Thanks for stopping by!"
+  bio    : "Hello! This site is where I talk things about I've made. Thanks for stopping by!"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
