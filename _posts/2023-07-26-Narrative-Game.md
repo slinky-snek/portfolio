@@ -9,7 +9,7 @@ tags:
   - Dialogue
 ---
 
-Here are some snippets from work I was doing late last year on a prototype for a narrative driven game. The dialogue is driven by a behavior tree. Using markup
+Here are some snippets from work I was doing in late 2022 on a prototype for a narrative driven game. The dialogue is driven by a behavior tree. Using markup
 that was written into the dialogue, I was able to parse the text as it was being printed and trigger animations and sounds at specific times in the conversation. The markup 
 I devised used a delimiter that would signify the next characters were to be used as animation or sound cues. The characters would be used to select specific animations
 and sounds that were mapped to those characters. The system is messy and could use some cleanup. For instance, the markup should be changed from mapping individual characters to mapping
