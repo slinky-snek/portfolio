@@ -26,7 +26,7 @@ Gameplay Video
 <br>
 <br>
 <h1>
-Highlights:
+Some highlights:
 </h1>
 <h2>
 Character Setup
