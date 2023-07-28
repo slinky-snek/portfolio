@@ -176,6 +176,9 @@ Sticky Targets Subgraph
 Sounds and Music
 </h2>
 I implemented all sound effects and music using MetaSounds. This allowed for greater control over when and how sounds were played. Included randomized music selection and pitch scaling of sound effects. Fewer sound effects were needed and each time one was played, it sounded different. This was especially important for the shooting, grappling, and impact sounds. Being able to make a metasound as a placeholder was also very helpful. You can play the empty metasound where you need it while building the mechanic. When you have a sound that you've picked later on, instead of having to find the call-site where you played the sound, you can edit the metasound asset.
+<br>
+<br>
+<br>
 <h2>
 Input Handling
 </h2>
