@@ -7,4 +7,4 @@ I'm a Game Programmer currently looking for work! I have experience with Unreal 
 I've used C++ for six years and Unreal Engine for two.
 
 If you'd like to see more about my skillset, please view my resume. If you'd like to chat about games, game technology, 
-or software development, please feel free to contact me on LinkedIn!
+or software development, please feel free to connect with me on LinkedIn!
